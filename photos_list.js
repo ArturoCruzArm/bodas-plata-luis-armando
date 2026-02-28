@@ -1,6 +1,6 @@
 // Lista de fotos generada automáticamente
-// Total de fotos: 13
-// Generado: 2026-02-28 16:41:27
+// Total de fotos: 15
+// Generado: 2026-02-28 16:41:39
 
 const photos = [
     {
@@ -67,6 +67,16 @@ const photos = [
         "name": "DSC_0318",
         "path": "imagenes/DSC_0318.webp",
         "filename": "DSC_0318.webp"
+    },
+    {
+        "name": "DSC_0319",
+        "path": "imagenes/DSC_0319.webp",
+        "filename": "DSC_0319.webp"
+    },
+    {
+        "name": "DSC_0320",
+        "path": "imagenes/DSC_0320.webp",
+        "filename": "DSC_0320.webp"
     }
 ];
 
