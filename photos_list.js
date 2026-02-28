@@ -1,6 +1,6 @@
 // Lista de fotos generada automáticamente
-// Total de fotos: 7
-// Generado: 2026-02-28 16:40:49
+// Total de fotos: 13
+// Generado: 2026-02-28 16:41:27
 
 const photos = [
     {
@@ -37,6 +37,36 @@ const photos = [
         "name": "DJI_20260228_162124_409",
         "path": "imagenes/DJI_20260228_162124_409.webp",
         "filename": "DJI_20260228_162124_409.webp"
+    },
+    {
+        "name": "DSC_0313",
+        "path": "imagenes/DSC_0313.webp",
+        "filename": "DSC_0313.webp"
+    },
+    {
+        "name": "DSC_0314",
+        "path": "imagenes/DSC_0314.webp",
+        "filename": "DSC_0314.webp"
+    },
+    {
+        "name": "DSC_0315",
+        "path": "imagenes/DSC_0315.webp",
+        "filename": "DSC_0315.webp"
+    },
+    {
+        "name": "DSC_0316",
+        "path": "imagenes/DSC_0316.webp",
+        "filename": "DSC_0316.webp"
+    },
+    {
+        "name": "DSC_0317",
+        "path": "imagenes/DSC_0317.webp",
+        "filename": "DSC_0317.webp"
+    },
+    {
+        "name": "DSC_0318",
+        "path": "imagenes/DSC_0318.webp",
+        "filename": "DSC_0318.webp"
     }
 ];
 
