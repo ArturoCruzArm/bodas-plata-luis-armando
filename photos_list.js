@@ -1,6 +1,6 @@
 // Lista de fotos generada automáticamente
-// Total de fotos: 15
-// Generado: 2026-02-28 16:41:39
+// Total de fotos: 25
+// Generado: 2026-02-28 16:43:22
 
 const photos = [
     {
@@ -77,6 +77,56 @@ const photos = [
         "name": "DSC_0320",
         "path": "imagenes/DSC_0320.webp",
         "filename": "DSC_0320.webp"
+    },
+    {
+        "name": "DSC_0321",
+        "path": "imagenes/DSC_0321.webp",
+        "filename": "DSC_0321.webp"
+    },
+    {
+        "name": "DSC_0322",
+        "path": "imagenes/DSC_0322.webp",
+        "filename": "DSC_0322.webp"
+    },
+    {
+        "name": "DSC_0323",
+        "path": "imagenes/DSC_0323.webp",
+        "filename": "DSC_0323.webp"
+    },
+    {
+        "name": "DSC_0324",
+        "path": "imagenes/DSC_0324.webp",
+        "filename": "DSC_0324.webp"
+    },
+    {
+        "name": "DSC_0325",
+        "path": "imagenes/DSC_0325.webp",
+        "filename": "DSC_0325.webp"
+    },
+    {
+        "name": "DSC_0326",
+        "path": "imagenes/DSC_0326.webp",
+        "filename": "DSC_0326.webp"
+    },
+    {
+        "name": "DSC_0327",
+        "path": "imagenes/DSC_0327.webp",
+        "filename": "DSC_0327.webp"
+    },
+    {
+        "name": "DSC_0328",
+        "path": "imagenes/DSC_0328.webp",
+        "filename": "DSC_0328.webp"
+    },
+    {
+        "name": "DSC_0329",
+        "path": "imagenes/DSC_0329.webp",
+        "filename": "DSC_0329.webp"
+    },
+    {
+        "name": "DSC_0330",
+        "path": "imagenes/DSC_0330.webp",
+        "filename": "DSC_0330.webp"
     }
 ];
 
