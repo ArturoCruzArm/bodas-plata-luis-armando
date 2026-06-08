@@ -342,6 +342,9 @@
         document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
 
         let currentPhotoIndex = 0;
+        function getThumbPath(fullPath) {
+            return fullPath.replace('imagenes/', 'imagenes/thumb/');
+        }
         let selections = typeof defaultSelections !== 'undefined' ? {...defaultSelections} : {};
 
         const STORAGE_KEY = 'bodas_plata_luis';
@@ -355,7 +358,7 @@
             try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selections)); } catch(e) {}
         }
         loadSelections();
-        let activeFilter = 'impresion';
+        let activeFilter = 'all';
 
         function renderGallery() {
             const grid = document.getElementById('photosGrid');
@@ -372,7 +375,7 @@
                 ).join('');
 
                 card.innerHTML = `
-                    <img src="${photo.path}" alt="Foto ${index + 1}" loading="lazy">
+                    <img src="${getThumbPath(photo.path)}" alt="Foto ${index + 1}" loading="lazy">
                     <div class="photo-number">#${String(index + 1).padStart(3, '0')}</div>
                     <div class="photo-badges">${badges}</div>
                 `;
