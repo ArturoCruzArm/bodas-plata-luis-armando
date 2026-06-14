@@ -1,6 +1,6 @@
-// Lista de fotos generada automáticamente
-// Total de fotos: 687
-// Generado: 2026-03-01 09:44:34
+// Lista de fotos generada automaticamente
+// Total de fotos: 685
+// Generado: 2026-06-14 23:07:44
 
 const photos = [
     {
@@ -2714,16 +2714,6 @@ const photos = [
         "filename": "DSC_0603.webp"
     },
     {
-        "name": "DSC_0604",
-        "path": "imagenes/DSC_0604.webp",
-        "filename": "DSC_0604.webp"
-    },
-    {
-        "name": "DSC_0605",
-        "path": "imagenes/DSC_0605.webp",
-        "filename": "DSC_0605.webp"
-    },
-    {
         "name": "DSC_0606",
         "path": "imagenes/DSC_0606.webp",
         "filename": "DSC_0606.webp"
@@ -3439,9 +3429,3 @@ const photos = [
         "filename": "DSC_0755.webp"
     }
 ];
-
-window.addEventListener('DOMContentLoaded', function() {
-    console.log(`Cargadas ${photos.length} fotos`);
-    renderGallery();
-    updateStats();
-});
